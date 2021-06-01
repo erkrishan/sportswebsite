@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* border: 2px solid red; */
+    background-color: black;
+    color: wheat;
+    /* filter: opacity(70%); */
+}
+
+footer {
+    background-color: black;
+    /* border: 2px solid red; */
+    color: wheat;
+    /* margin-top: 50px; */
+    height: 10vh;
+}
+
+.nav-bar {
+    display: flex;
+    text-align: right;
+}
+
+nav {
+    margin-top: 47px;
+    margin-left: 440px;
+}
+
+ul {
+    font-size: 1.5rem;
+}
+
+
+/* nav ul a {
+    margin: 2px;
+} */
+
+li {
+    display: inline;
+    text-decoration: none;
+    /* margin-top: 20px; */
+    padding: 20px;
+    margin: 10px;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: wheat;
+}
+
+
+/* 
+img {
+    margin-left: 100px;
+} */
+
+.active {
+    color: aqua
+}
+
+.container-fluid {
+    text-align: center;
+    /* display: grid; */
+    /* grid-template-columns: 420px 420px 420px 420px; */
+    /* grid-row: 150px 125px; */
+    /* display: flex;  */
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: aquamarine;
+    height: 100vh;
+    align-items: center;
+    align-content: center; */
+}
+
+.center-image {
+    /* background-image: url('img/1.jpg'); */
+    margin-bottom: 250px;
+    margin-left: 350px;
+    margin-right: 220px;
+    /* border: 22px outset black;
+    border-image: round; */
+}
+
+.center-image p {
+    text-align: center;
+    padding-top: 172px;
+    font-size: 25px;
+    color: rgb(207, 12, 12);
+}
+
+.boxes {
+    /* border: 2px solid brown; */
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    /* margin: 10px; */
+    padding-left: 100px;
+    padding-top: 50PX;
+    padding-bottom: 50PX;
+    grid-column-gap: 60px;
+    background-color: red;
+    /* filter: opacity(30%); */
+}
+
+.box2 img {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.btn {
+    margin-left: 92px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* padding-left: 30px; */
+    padding: 15px 27px;
+    cursor: pointer;
+    border: 3px solid rgb(10, 10, 10);
+    border-radius: 40px;
+}
+
+.box2 {
+    background-color: black;
+    border: 2px solid black;
+    /* display: flex; */
+    /* filter: opacity(100%); */
+    border-radius: 10px;
+}
+
+.box2 p {
+    color: wheat;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.box3 {
+    background-color: black;
+    border: 2px solid black;
+    /* color: yellowgreen; */
+    border-radius: 10px;
+}
+
+.box3 img {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.box3 p {
+    color: wheat;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.box4 {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.box4 p {
+    color: wheat;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.box4 img {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.box5 {
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.box5 p {
+    color: wheat;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.box5 img {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.center-image img {
+    filter: invert(100%);
+    border: 22px outset black;
+    border-image: round;
+}
+
+.center {
+    padding-top: 25px;
+    font-size: large;
+}
+
+main {
+    /* border: 2px solid red; */
+    /* background-color: rgb(0, 255, 217); */
+    /* height: 140vh; */
+    /* overflow: hidden; */
+    /* margin-top: 50px; */
+    padding-top: 50px;
+    /* display: flex; */
+}
+
+.bb {
+    margin: 40px;
+    border: 2px solid green;
+    /* background-color: orange; */
+    /* height: 20vh; */
+    color: black;
+    border-radius: 10px;
+}
+
+.bb a {
+    color: black;
+}
+
+.tt {
+    margin: 40px;
+    border: 2px solid green;
+    /* background-color: orange; */
+    color: black;
+    /* height: 20vh; */
+    border-radius: 10px;
+}
+
+.golf {
+    margin: 40px;
+    border: 2px solid green;
+    /* background-color: orange; */
+    /* height: 20vh; */
+    color: black;
+    /* display: flex; */
+    align-self: flex-start;
+    border-radius: 10px;
+}
+
+
+/* .golf p {
+    border: 2px solid black;
+    display: flex;
+    align-self: auto;
+    /* margin: 20px 10px; */
+
+
+/* padding: 20px 10px;
+} */
+
+.track {
+    margin: 40px;
+    border: 2px solid green;
+    /* background-color: orange; */
+    color: black;
+    /* height: 20vh; */
+    /* display: flex; */
+    border-radius: 10px;
+}
+
+.content img {
+    /* margin-right: 70px; */
+    padding: 20px;
+    /* border: black; */
+    /* border-radius: 5px; */
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+.content p {
+    padding-top: 30px;
+    background-color: darkgrey;
+    padding-left: 20px;
+    margin: 20px;
+    /* display: flex; */
+    border: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 10px;
+    border-top: 10px;
+    border-style: groove;
+    border-left: 8px;
+    border-right: 8px;
+    background-color: thistle;
+    /* display: flex; */
+}
+
+
+/* 
+@media screen and (min-width:992px) {
+    .container-fluid {
+        min-width: 960px;
+    }
+} */
